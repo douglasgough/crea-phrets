@@ -1,0 +1,15 @@
+crearets.search:
+  path: '/crearets/search'
+  defaults:
+    _controller: '\Drupal\crearets\Controller\CREARetsSearchController::searchPage'
+    _title: 'Search'
+  requirements:
+    _permission: 'access content'
+
+crearets.admin_settings:
+  path: '/admin/config/crearets/settings'
+  defaults:
+    _form: '\Drupal\crearets\Form\CREARetsConfigForm'
+    _title: 'CREARets Settings'
+  requirements:
+    _permission: 'administer site configuration'

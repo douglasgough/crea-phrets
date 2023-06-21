@@ -1,0 +1,12 @@
+crearets.admin_settings_link:
+  title: CREA RETS Settings
+  description: Administer login credentials for RETS server
+  route_name: crearets.admin_settings
+  parent: system.admin_config_content
+  weight: 10
+crearets.search:
+  title: CREA Listings
+  description: View listing of Properties
+  route_name: crearets.search
+  parent: system.admin_reports
+  weight: -5

@@ -1,0 +1,13 @@
+crearets.settings:
+  type: config_object
+  label: 'CREARets settings'
+  mapping:
+    username:
+      type: string
+      label: 'Username'
+    password:
+      type: string
+      label: 'Password'
+    url:
+      type: string
+      label: 'URL'
