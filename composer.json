@@ -1,0 +1,18 @@
+{
+    "name": "drupal/creaphrets",
+    "type": "drupal-module",
+    "description": "Drupal to Canadian Real Estate Assoc (CREA) RETS connector",
+    "keywords": [
+        "crearets",
+        "Drupal",
+        "Drupal CREA RETS"
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "drupal/core": "^8.9 || ^9",
+        "troydavisson/phrets": "^2.6"
+    },
+    "require-dev": {
+        "monolog/monolog": "^1"
+    }
+}
