@@ -6,10 +6,10 @@ class CREAPhrets {
 
   /**
    *  Canadian Real Estate Assoc returns results in non-standard way which requires that this module use a very old
-   *  version of PHRETS. It included as a class inside this module so that it only gets updated if the module is updated.
+   *  version of PHRETS. It is included as a class inside this module so that it only gets updated if the module is updated.
    *  Using it as a dependency in Composer would risk the PHRETS library being updated to something that is not compatible
    *  with CREA.
-   * 
+   *
    *  PHRETS - PHP library for RETS
    *  version 1.0rc2 (release candidate 2)  please send error reports and/or feedback to troy.davisson@gmail.com
    *  http://troda.com/projects/phrets/

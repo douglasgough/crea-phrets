@@ -3,3 +3,4 @@ type: module
 description: 'A module that connects to CREA RETS server using PHRETS.'
 core_version_requirement: ^9 || ^8
 package: 'Real Estate'
+configure: crearets.admin_settings
