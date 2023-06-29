@@ -98,7 +98,6 @@ class CREARetsSearchController extends ControllerBase {
 
     // Close the session.
     $rets->Disconnect();
-    kpr($results);
     // Return a render array for the Drupal page.
     $content = [
       '#theme' => 'item_list',

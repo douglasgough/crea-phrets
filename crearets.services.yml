@@ -1,0 +1,4 @@
+services:
+  crearets.retssession:
+    class: Drupal\crearets\RetsSession
+    arguments: ['@config.factory']
